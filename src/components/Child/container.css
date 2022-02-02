@@ -1,0 +1,38 @@
+.flex-container {
+    height: 100%;
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    direction: flex;
+    background-color: rgb(248, 181, 222);
+}
+
+.avatar {
+  border: 1px solid black;
+  border-radius: 80px;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.button-style {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;  
+}
+
+.button-style:hover {
+  background-color: rgb(60, 235, 162);
+  border: 1px solid white;
+}

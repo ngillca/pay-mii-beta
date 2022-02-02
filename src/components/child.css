@@ -1,0 +1,34 @@
+.flex-container {
+    height: 100%;
+    margin: 0;
+    display: flex; /* change depending on screen size*/
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-container {
+    height: 100%;
+    margin: 0;
+    display: flex; /* change depending on screen size*/
+    align-items: center;
+    justify-content: center;
+}
+
+.button-screen {
+    background-color: #4CAF50;
+    border: 1px solid rgb(56, 50, 50);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1px;
+    cursor: pointer;  
+  }
+  
+  .button-screen:hover {
+    background-color: rgb(60, 235, 162);
+    border: 1px solid rgb(66, 96, 8);
+  }
